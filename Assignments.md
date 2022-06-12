@@ -100,7 +100,7 @@ Always keep the DevTools console open (ctl+shift+i).
 
 When you are finished create a PR called `Ex. 5: Account Information`.
 
-# Ex. 6:
+# Ex. 6: Sentence Builder
 
 React allows us to get "handles" to DOM elements.  Because of this, there is no reason to use `getElementById()` in our React applications.  Using `getElementById()` in a pure React application is considered to be an anit-pattern.  
 
