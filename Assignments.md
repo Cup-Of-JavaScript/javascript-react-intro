@@ -12,7 +12,7 @@ Create the following React [Type 1](https://gitlab.com/mburolla/javascript-react
     - Dessert
 - Footer
 
-The `Header` React component has been done for you.  It can be used as an example for the React components that you need to create.
+The `Header` React component has been done for you.  It can be used as an example for the other React components you will create.
 
 When you are finished, the Main React component will resemble the following and should produce the rendered output below:
 
