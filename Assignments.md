@@ -31,7 +31,7 @@ Always keep the DevTools console open (ctl+shift+i).
 When you are finished create a PR called `Ex. 1: Dollar Food Store`.
 
 # Ex. 2: FootBook
-Now its your turn to slice and dice.  Given the following UI:
+First there was Facebook, now there is FootBook.  Its your turn to slice and dice.  Given the following UI:
 
 ![](./docs/ex2.png)
 
