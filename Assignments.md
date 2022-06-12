@@ -35,12 +35,13 @@ First there was Facebook, now there is FootBook.  Its your turn to slice and dic
 
 ![](./docs/ex2.png)
 
-Create [Type 1](https://gitlab.com/mburolla/javascript-react-starter/-/blob/main/component-types.md) React components and place them in your `Main` React component in your student directory.
+Create [Type 1](https://gitlab.com/mburolla/javascript-react-starter/-/blob/main/component-types.md) React components that render this webpage and place them in your `Main` React component in your student directory.
 
 Colors:
 ```
 background-color: rgb(189, 189, 189);
 background-color: rgb(83, 83, 255);
+white
 ```
 
 Always keep the DevTools console open (ctl+shift+i).
