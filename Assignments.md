@@ -36,6 +36,12 @@ Now its your turn to slice and dice.  Given the following UI:
 
 Create [Type 1](https://gitlab.com/mburolla/javascript-react-starter/-/blob/main/component-types.md) React components and place them in your `Main` React component in your student directory.
 
+Colors:
+```
+background-color: rgb(189, 189, 189);
+background-color: rgb(83, 83, 255);
+```
+
 Always keep the DevTools console open (ctl+shift+i).
 
 When you are finished create a PR called `Ex. 2: FootBook`.
@@ -111,6 +117,8 @@ Create a React component called `SentenceBuilder` which builds a sentence using 
 Rendered UI:
 
 ![](./docs/ex6.png)
+
+Nice to have: Disable the buttons until a user has typed text into the textbox.
 
 Always keep the DevTools console open (ctl+shift+i).
 
