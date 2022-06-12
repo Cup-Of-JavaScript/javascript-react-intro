@@ -119,7 +119,7 @@ Rendered UI:
 
 ![](./docs/ex6.png)
 
-Nice to have: Disable the buttons until a user has typed text into the textbox.
+Nice to have: Disable the buttons if no text is present in the textbox.  Enable the buttons if one or more characters are in the textbox.
 
 Always keep the DevTools console open (ctl+shift+i).
 
