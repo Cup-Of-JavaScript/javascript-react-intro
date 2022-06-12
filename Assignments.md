@@ -47,7 +47,7 @@ Always keep the DevTools console open (ctl+shift+i).
 When you are finished create a PR called `Ex. 2: FootBook`.
 
 # Ex. 3: Tweet Storm 
-React Components have properties, commonly knows as props.  Props allow us to send data INTO a React Component.  Prop data in the React Component is READ ONLY and cannot be changed.
+React Components have properties, commonly knows as props.  Props allow us to send data INTO a React Component.  Prop data in the React Component is READ ONLY and cannot be changed.  The term "prop drilling" is used when we pass data from multiple child components.
 
 Create a `Tweets` parent component that contains many `Tweet` components such that it is consumed by the `Main` component in the following manner:
 
@@ -78,7 +78,7 @@ Always keep the DevTools console open (ctl+shift+i).
 When you are finished create a PR called `Ex. 3: Tweet Storm`.
 
 # Ex. 4: Like Counter
-Callback arrow functions are used to send data from a child component and back to the parent component.
+Callback arrow functions are used to send data from a child component back to the parent component.
 
 The [Type 9](https://gitlab.com/mburolla/javascript-react-starter/-/blob/main/src/comps/Type9.js) component shows how handle a callback function when a [child](https://gitlab.com/mburolla/javascript-react-starter/-/blob/main/src/comps/Child.js) component fires a callback function to the parent.
 
