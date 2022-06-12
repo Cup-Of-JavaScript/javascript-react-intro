@@ -1,4 +1,5 @@
 # JavaScript React Intro Assignments
+All assignments are based on React functional components.  
 
 # Ex. 1: Dollar Food Store
 The React Component is our building block when creating React applications.  This assignment focuses on the architecting (structuring) our React web pages using simple React components.
