@@ -1,10 +1,15 @@
 import React from 'react'
-import './Main.css'
+import { Header } from './Header'
+import './Main.scss'
 
 export const Main = () => {
   return (
-    <div>
-        Hello I'm student id: 3.
+    <div className="Main">
+        <Header />
+        {/* 
+          <Menu />
+          <Footer />
+        */}
     </div>
   )
 }
