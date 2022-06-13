@@ -49,7 +49,7 @@ Always keep the DevTools console open (ctl+shift+i).
 When you are finished create a PR called `Ex. 2: FootBook`.
 
 # Ex. 3: Tweet Storm 
-React Components have properties, commonly knows as props.  Props allow us to send data INTO a React Component.  Prop data in the React Component is READ ONLY and cannot be changed.  The term "prop drilling" is used when we pass data from multiple child components.
+React Components have properties, commonly knows as props.  Props allow us to send data INTO a React Component.  Prop data in the React Component is READ ONLY and cannot be changed.  The term "prop drilling" is used when we pass data from multiple child components.  Properties are seen in our [Type 2](https://gitlab.com/mburolla/javascript-react-starter/-/blob/main/src/comps/Type2.js) components.
 
 Create a `Tweets` parent component that contains many `Tweet` components such that it is consumed by the `Main` component in the following manner:
 
