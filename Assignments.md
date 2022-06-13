@@ -112,6 +112,8 @@ When you are finished create a PR called `Ex. 5: Account Information`.
 
 # Ex. 6: Sentence Builder
 
+Part A.
+
 React allows us to get "handles" to DOM elements.  Because of this, there is no reason to use `getElementById()` in our React applications. 
 
 [Type 6](https://gitlab.com/mburolla/javascript-react-starter/-/blob/main/src/comps/Type6.js) components show how we can use the `useRef()` hook to get a reference to a DOM element.  NOTE: `useRef()` has two different use cases.  We are ignoring the other use case for now.  NOTE: Do not forget to use the `.current` property when using `useRef()`.
@@ -122,7 +124,10 @@ Rendered UI:
 
 ![](./docs/ex6.png)
 
-Nice to have: Disable the buttons if no text is present in the textbox.  Enable the buttons if one or more characters are in the textbox.
+Part B.
+
+- Disable the buttons if no text is present in the textbox.  Enable the buttons if one or more characters are in the textbox.  
+- Add a word counter to the UI that displays the number of words in the sentence.
 
 Always keep the DevTools console open (ctl+shift+i).
 
