@@ -116,7 +116,7 @@ React allows us to get "handles" to DOM elements.  Because of this, there is no 
 
 [Type 6](https://gitlab.com/mburolla/javascript-react-starter/-/blob/main/src/comps/Type6.js) components show how we can use the `useRef()` hook to get a reference to a DOM element.  NOTE: `useRef()` has two different use cases.  We are ignoring the other use case for now.  NOTE: Do not forget to use the `.current` property when using `useRef()`.
 
-Create a React component called `SentenceBuilder` which builds a sentence using the `useState()` and `useRef()` hooks.  The `Add Word` button adds a word to the sentence and the `Reset` button clears the sentence so that the user can build a new word.
+Create a React component called `SentenceBuilder` which builds a sentence using the `useState()` and `useRef()` hooks.  The `Add Word` button adds a word to the sentence and the `Reset` button clears the sentence so that the user can build a new sentence. 
 
 Rendered UI:
 
