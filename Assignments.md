@@ -112,7 +112,7 @@ When you are finished create a PR called `Ex. 5: Account Information`.
 
 # Ex. 6: Sentence Builder
 
-Part A.
+#### Part A
 
 React allows us to get "handles" to DOM elements.  Because of this, there is no reason to use `getElementById()` in our React applications. 
 
@@ -124,7 +124,7 @@ Rendered UI:
 
 ![](./docs/ex6.png)
 
-Part B.
+#### Part B
 
 - Disable the buttons if no text is present in the textbox.  Enable the buttons if one or more characters are in the textbox.  
 - Add a word counter to the UI that displays the number of words in the sentence.
