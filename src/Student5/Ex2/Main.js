@@ -1,6 +1,7 @@
 import React from 'react'
 import { Header } from './Header'
-import { Body } from './Body'
+import { Posts } from './Posts'
+import { Groups } from './Groups'
 import { Footer } from './Footer'
 import './Main.scss'
 
@@ -8,7 +9,8 @@ export const Main = () => {
   return (
     <div className="Main">
         <Header />
-        <Body />
+        <Posts />
+        <Groups />
         <Footer />
     </div>
   )
