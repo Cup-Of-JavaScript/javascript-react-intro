@@ -4,7 +4,7 @@ All assignments are based on React functional components.
 [Component Type Reference](https://gitlab.com/mburolla/javascript-react-starter/-/blob/main/component-types.md)
 
 # Ex. 1: Dollar Food Store
-The React Component is our building block when creating React applications.  This assignment focuses on the architecting (structuring) our React web pages using simple React components.
+The React Component is our building block when creating React applications.  This assignment focuses on the architecture (structure) our React web pages using simple React components.
 
 Create the following React [Type 1](https://gitlab.com/mburolla/javascript-react-starter/-/blob/main/component-types.md) components for this [HTML](./src/TODO/DollarStore/index.html) and [CSS](./src/TODO/DollarStore/style.css):
 
