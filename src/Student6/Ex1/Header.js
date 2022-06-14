@@ -1,5 +1,6 @@
 import React from 'react'
 import './Header.scss'
+import {Nav} from './Nav'
 
 export const Header = () => {
   return (
@@ -7,6 +8,7 @@ export const Header = () => {
         <div className="logo">
             Dollar Food Store
         </div>
+      <Nav />  
    </div>
   )
 }
