@@ -1,10 +1,15 @@
 import React from 'react'
-import './Main.css'
+import { Header } from './Header'
+import { Body } from './Body'
+import { Footer } from './Footer'
+import './Main.scss'
 
 export const Main = () => {
   return (
-    <div>
-        Hello I'm student id: 3.
+    <div className="Main">
+        <Header />
+        <Body />
+        <Footer />
     </div>
   )
 }
