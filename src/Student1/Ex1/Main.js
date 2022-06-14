@@ -1,15 +1,17 @@
 import React from 'react'
 import { Header } from './Header'
 import './Main.scss'
+import { Menu } from './Menu'
+import { Header } from './Header'
+import { Footer } from './Footer'
 
 export const Main = () => {
   return (
     <div className="Main">
-        <Header />
-        {/* 
-          <Menu />
-          <Footer />
-        */}
+      <Header />
+      <Menu />
+      <Footer />
+
     </div>
   )
 }
