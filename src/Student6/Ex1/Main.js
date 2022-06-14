@@ -11,6 +11,5 @@ export const Main = () => {
         <Menu />
         <Footer />
     </div>
-
   )
 }
