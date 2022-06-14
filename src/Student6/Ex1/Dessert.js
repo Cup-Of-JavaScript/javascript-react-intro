@@ -3,7 +3,7 @@ import './Dessert.scss'
 
 export const Dessert = () => {
   return (
-    <div class="dessert"> 
+    <div className="dessert"> 
                 <h2>Dessert</h2>
                 <hr />
                 <ul>

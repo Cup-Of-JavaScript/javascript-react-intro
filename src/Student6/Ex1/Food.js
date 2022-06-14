@@ -3,7 +3,7 @@ import './Food.scss'
 
 export const Food = () => {
   return (
-    <div class="food">
+    <div className="food">
                 <h2>Food</h2>
                 <hr />
                 <ul>
