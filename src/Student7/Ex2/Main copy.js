@@ -9,8 +9,7 @@ export const Main = () => {
     <div className="Main">
         <Header />
         <Menu />
-        <Footer />
-        
+        <Footer /> 
     </div>
   )
 }
