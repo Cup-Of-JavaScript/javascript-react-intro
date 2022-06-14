@@ -1,10 +1,15 @@
 import React from 'react'
+import { Dessert } from './Dessert'
+import { Drink } from './Drink'
+import { Food } from './Food'
 import './Menu.scss'
 export const Menu = () => {
   return (
-    <header>
-    <h1 className="Menu">Menu</h1>
-    </header>
-  
+        <div>
+          <h1 className="menu">Menu</h1>
+          <Food />
+          <Drink/>
+          <Dessert/>
+        </div>
   )
 }
