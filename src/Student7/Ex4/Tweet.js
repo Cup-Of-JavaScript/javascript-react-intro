@@ -8,6 +8,7 @@ export const Tweet = (props) => {
 
     const onClick = () => {
         setCounter((counter + 1));
+        console.log(`button works ${counter}`)
     }
 
 
