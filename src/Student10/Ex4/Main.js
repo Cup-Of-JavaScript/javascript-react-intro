@@ -1,10 +1,17 @@
-import React from 'react'
-import './Main.css'
+import React from "react";
+import "./Main.css";
+import { Tweets } from "./Tweets"
+
 
 export const Main = () => {
   return (
-    <div>
-        Hello I'm student id: 3.
+    <div className="Main">
+      
+
+      <div className="Tweets">
+        <div></div>
+        <Tweets />
+      </div>
     </div>
-  )
-}
+  );
+};
