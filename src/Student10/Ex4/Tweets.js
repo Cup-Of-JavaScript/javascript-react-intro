@@ -14,17 +14,17 @@ export const Tweets = (props) => {
       <Tweet
         message="It's payday!!!"
         color="green"
-        onHandleClick={(n) => onHandleClick(n)}
+        onHandleClick={() => onHandleClick()}
       />
       <Tweet
         message="I just bought a new car!"
         color="yellow"
-        onHandleClick={(n) => onHandleClick(n)}
+        onHandleClick={() => onHandleClick()}
       />
       <Tweet
         message="I just smashed my new car."
         color="red"
-        onHandleClick={(n) => onHandleClick(n)}
+        onHandleClick={() => onHandleClick()}
       />
     </div>
   );
