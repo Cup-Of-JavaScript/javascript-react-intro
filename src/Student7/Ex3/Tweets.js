@@ -1,13 +1,10 @@
 import React from 'react'
 import './Tweets.scss'
 
-export const Tweets = () => {
+export const Tweets = (props) => {
     return (
         <div className="Tweets">
-            <div>Tweet Storm</div>
-            <Tweet message="It's payday!!!" color="green"/>
-            <Tweet message="I just bought a new car!" color="yellow" />
-            <Tweet message="I just smashed my new car." color="red" />
+           {props.message} 
         </div>
     )
 }
