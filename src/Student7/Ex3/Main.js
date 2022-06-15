@@ -1,10 +1,15 @@
 import React from 'react'
+import {Tweets} from './Tweets'
 import './Main.css'
 
 export const Main = () => {
   return (
-    <div>
-        Hello I'm student id: 3.
+    <div className="Main">
+        Tweet Storm
+        <Tweets />
+        
     </div>
+
+    
   )
 }
