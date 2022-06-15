@@ -1,28 +1,12 @@
 import React from "react";
 import { Tweets } from "./Tweets";
 
-
 import "./Main.scss";
 
 export const Main = () => {
-  
-return (
+  return (
     <div className="Main">
-
-     
-
-      <div>Total Likes: 13 </div> 
-      <Tweets message="It's payday!!!"   color="green" />
-      <Tweets message="I just bought a new car!"  color="yellow" />
-      <Tweets message="I just smashed my new car."  color="red" /> 
-
-
-     
- 
+      <Tweets />
     </div>
-
-
-
-
   );
 };
