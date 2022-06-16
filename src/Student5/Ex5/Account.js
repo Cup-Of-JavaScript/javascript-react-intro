@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import "./Account.scss";
 
-export const Account = () => {
+export const Account = (props) => {
   let [show, setShow] = useState();
   
 
@@ -29,7 +29,7 @@ export const Account = () => {
             <td>Account Number</td>
             <td>
               <span>
-                <div style={show ? {} : { display: "none" }}>11-1234</div>
+                <div style={show ? {} : { display: "none" }}>{props.message}</div>
               </span>
             </td>
             <td>

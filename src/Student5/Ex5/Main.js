@@ -5,7 +5,7 @@ import {Account} from './Account'
 export const Main = () => {
   return (
     <div className = "Main">
-        <Account/>
+        <Account message = '11-1234'/>
     </div>
   )
 }
