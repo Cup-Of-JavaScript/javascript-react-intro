@@ -1,10 +1,11 @@
 import React from 'react'
-import './Main.css'
+import './Main.scss'
+import {Tweets} from './Tweets'
 
 export const Main = () => {
   return (
-    <div>
-        Hello I'm student id: 3.
+    <div className="Main">  
+      <Tweets />
     </div>
   )
 }
