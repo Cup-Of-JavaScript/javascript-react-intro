@@ -5,8 +5,12 @@ import "./Account.scss";
 
 export const Account = () => {
   let [show, setShow] = useState("Show");
-  let [buttonText, setButtonText] = useState("Hide");
-
+  //let [buttonText, setButtonText] = useState("Hide");
+  
+  const handleOnClick = () => { 
+   setShow(!show)
+ }
+ let buttonText = show ? "Hide" : "Show";
   return (
     <div>
       <table>
@@ -32,14 +36,14 @@ export const Account = () => {
               {
                 show &&
                 <div style={show ? {} : {display:'none'}}>
-                  {show ? "11-1234" : ""}
+                  11-1234
                 </div>
               }
               &nbsp;
             </span>
             <td>
               <td>
-                <button onClick={() => setShow(!show)}>{buttonText}</button>
+                <button onClick={() => handleOnClick()}>{buttonText}</button>
               </td>
             </td>
           </tr>
