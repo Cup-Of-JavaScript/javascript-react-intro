@@ -4,28 +4,34 @@ import "./Account.scss";
 
 
 export const Account = () => {
-  let [show, setShow] = useState(false);
-  let [buttonText, setButtonText] = useState(true);
+  let [show, setShow] = useState("Show");
+  let [buttonText, setButtonText] = useState("Hide");
 
   return (
     <div>
       <table>
-        <thead><h1>Account Information</h1></thead>
+        <thead>
+          <h1>Account Information</h1>
+        </thead>
         <tbody>
           <tr>
-            <td>Balance</td> &nbsp; <td>$100,000</td>
+            <td>Balance</td> &nbsp;
+            <td>$100,000</td>
           </tr>
           <tr>
-            <td>Interest</td> &nbsp; <td>%5.0</td>
+            <td>Interest</td>
+            &nbsp;
+            <td>%5.0</td>
           </tr>
         </tbody>
         <tfoot>
           <tr>
-            <td>Account Number</td> &nbsp;
+            <td>Account Number</td>
+            &nbsp;
             <span>
               {
-                show && 
-                <div style={show ? {} : { display: buttonText }}>
+                show &&
+                <div style={show ? {} : {display:'none'}}>
                   {show ? "11-1234" : ""}
                 </div>
               }
@@ -33,7 +39,7 @@ export const Account = () => {
             </span>
             <td>
               <td>
-                <button onClick={() => setShow(!show)}>Show</button>
+                <button onClick={() => setShow(!show)}>{buttonText}</button>
               </td>
             </td>
           </tr>
