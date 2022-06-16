@@ -6,7 +6,7 @@ import './Main.css'
 export const Main = () => {
   return (
     <div className="Main">
-        Total Likes: {counter}
+
         <Tweets />
         
     </div>
