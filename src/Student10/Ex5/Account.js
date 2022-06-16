@@ -3,7 +3,7 @@ import { useState } from "react";
 
 export const Account = () => {
   let [show, setShow] = useState(false);
-  let [buttonText, setButtonText] = useState(true);
+  let [buttonText, setButtonText] = useState('Show');
 
   return (
     <div>
@@ -33,8 +33,7 @@ export const Account = () => {
                     setButtonText("Hide");
                   }}
                 >
-                  {" "}
-                  {buttonText}
+                              {buttonText}
                 </button>
               </div>
               <div style={show ? {} : { display: "none" }}>
