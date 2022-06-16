@@ -5,11 +5,11 @@ import "./Account.scss";
 
 export const Account = () => {
   let [show, setShow] = useState("Show");
+  let buttonText = show ? "Hide" : "Show";
 
   const handleOnClick = () => {
     setShow(!show)
   }
-  let buttonText = show ? "Hide" : "Show";
 
   return (
     <div>
