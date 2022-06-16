@@ -5,7 +5,6 @@ import "./Account.scss";
 
 export const Account = () => {
   let [show, setShow] = useState("Show");
-  //let [buttonText, setButtonText] = useState("Hide");
 
   const handleOnClick = () => {
     setShow(!show)
