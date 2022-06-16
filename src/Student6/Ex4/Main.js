@@ -1,10 +1,12 @@
 import React from 'react'
-import './Main.css'
+import { Tweets } from './Tweets'
+import './Main.scss'
+
 
 export const Main = () => {
   return (
-    <div>
-        Hello I'm student id: 3.
+    <div className="Main">
+       <Tweets />
     </div>
   )
 }
