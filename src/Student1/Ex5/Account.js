@@ -14,40 +14,31 @@ export const Account = () => {
   return (
     <div>
       <table>
-        <thead>
-          <h1>Account Information</h1>
-        </thead>
         <tbody>
           <tr>
-            <td>Balance</td> &nbsp;
+            <td><h1>Account Information</h1></td>
+            </tr>
+          <tr>
+            <td>Balance</td>
             <td>$100,000</td>
           </tr>
           <tr>
             <td>Interest</td>
-            &nbsp;
             <td>%5.0</td>
           </tr>
-        </tbody>
-        <tfoot>
           <tr>
             <td>Account Number</td>
-            &nbsp;
-            <span>
-              {
-                show &&
-                <div style={show ? {} : { display: 'none' }}>
-                  11-1234
-                </div>
-              }
-              &nbsp;
-            </span>
-            <td>
+            {
+              show &&
+              <td style={show ? {} : { display: 'none' }}>
+                11-1234
+              </td>
+            }
               <td>
                 <button onClick={() => handleOnClick()}>{buttonText}</button>
               </td>
-            </td>
           </tr>
-        </tfoot>
+          </tbody>
       </table>
     </div>
   )
