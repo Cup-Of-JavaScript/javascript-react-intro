@@ -129,6 +129,8 @@ Rendered UI:
 - Disable the buttons if no text is present in the textbox.  Enable the buttons if one or more characters are in the textbox.  
 - Add a word counter to the UI that displays the number of words in the sentence.
 
+![](./docs/ex6b.png)
+
 Always keep the DevTools console open (ctl+shift+i).
 
 When you are finished create a PR called `Ex. 6: Sentence Builder`.
