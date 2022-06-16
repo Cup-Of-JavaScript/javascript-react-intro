@@ -7,7 +7,6 @@ export const Tweet = (props) => {
         <div className="Tweets" style={{backgroundColor: props.color}}>
            {props.message} 
            <button onClick={() => { props.onHandleClick() }}>Like</button>
-           {/* <span>{counter}</span> */}
         </div>
     )
 }

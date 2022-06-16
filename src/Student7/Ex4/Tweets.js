@@ -4,10 +4,10 @@ import {Tweet} from './Tweet'
 import './Tweets.scss'
 
 export const Tweets = () => {
-        let [counter, setCounter] = useState(0);
-        const onHandleClick = () => {
-            setCounter(counter + 1);
-        }
+    let [counter, setCounter] = useState(0);
+    const onHandleClick = () => {
+    setCounter(counter + 1);
+    }
     
     return (
         <div className="Tweets">
