@@ -1,12 +1,11 @@
 import React from "react";
 import { useState } from 'react';
 import "./Account.scss";
-import './ShowHide'
-import { ShowHide } from "./ShowHide";
 
 
 export const Account = () => {
   let [show, setShow] = useState(false);
+  let [buttonText, setButtonText] = useState(true);
 
   return (
     <div>
@@ -25,8 +24,8 @@ export const Account = () => {
             <td>Account Number</td> &nbsp;
             <span>
               {
-                show &&
-                <div style={show ? {} : { display: 'none' }}>
+                show && 
+                <div style={show ? {} : { display: buttonText }}>
                   {show ? "11-1234" : ""}
                 </div>
               }
