@@ -1,11 +1,12 @@
 import React from 'react'
 import './Account.scss'
-import { useState } from "react";
+import { useState } from 'react';
 
 
 export const Account = () => {
-  // let [show, setShow] = useState(false);
-  // let [buttonText, setButtonText] = useState(true);
+  let [show, setShow] = useState(false);
+  let [enableInput, setEnableInput] = useState(true);
+
   return (
     <div>
       <table>
@@ -22,7 +23,20 @@ export const Account = () => {
         </tr>
         <tr>
           <td>Account Number</td>
-          <td>11-1234</td>
+            <td>
+              <div style={!show ? {} : { display: 'none' }}>
+                <button onClick={() => {setShow(!show); setEnableInput("Hide");}}>
+                  {enableInput}
+                </button>
+              </div>
+              <div style={show ? {} : { display: 'none' }}>
+                11-1234
+                <button
+                  onClick={() => {setShow(!show);setEnableInput("Show");}}>
+                  {enableInput}
+                </button>
+              </div>
+            </td>
         </tr>
       </table>
   </div>
